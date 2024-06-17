@@ -80,7 +80,7 @@ public class stacklist{
                System.out.println("2.POP");
                System.out.println("3.PEEK");
                System.out.println("4.DISPLAY");
-               System.out.println("5.EXIT");
+               System.out.println("0.EXIT");
                System.out.println("Enter your choice of operations:");
                choice = sc.nextInt();
                switch (choice) {
@@ -100,11 +100,11 @@ public class stacklist{
                    case 4:
                             s.display();
                             break;
-                   case 5:
+                   case 0:
                             System.out.println("--Exiting--");
                             break;
                }
-        } while (choice!=5);
+        } while (choice!=0);
     }
 }
 
