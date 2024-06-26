@@ -1,4 +1,4 @@
-//package Graphs.AdjacencyList;
+package Graphs.AdjacencyList;
 
 import java.util.LinkedList;
 
