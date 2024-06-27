@@ -1,5 +1,6 @@
 package Graphs.AdjacencyList;
 
+//This program represents Undirected-graph
 import java.util.LinkedList;
 
 public class adjacencylist{
